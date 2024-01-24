@@ -7,7 +7,7 @@
  Now using the classical scattering integral, an expression for the nuclear stopping power can be derived as the integral of the energy loss in a collision over all possible collision 
  parameters _b_.
 
- The distance of minimum approach or the root of _r_min_ was found using scipy and all integrals were calculated using Simpson's method (5 levels in this code). More accurate results could have been achieved using for example Gauss-Legendre quadrature but Simpson's method proved to be sufficiently accurate.
+ The distance of minimum approach or the root of _r_min_ was found using scipy and all integrals were calculated using Simpson's method (5 levels in this code). More accurate results could have been achieved using for example Gauss-Legendre quadrature but Simpson's method proved to be sufficiently accurate. The differences in the results rose mainly from the differences between theoretical and fitted models. Due to this extensive error analysis was also required.
 
 
 ![stop_power](https://github.com/nikokurki/com_mat_project/assets/101094386/130ae14c-4136-4317-b7ed-0556e2802827)
